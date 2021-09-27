@@ -4,6 +4,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
 }
+
 :root {
   --primary-color: #F4DD4B;
   --secondary-color: #F6C616;
@@ -18,7 +19,6 @@ body {
   display: inline;
 }
 
-/** navbar **/
 .navigation {
   background-color: var(--primary-color);
   color: var(--blue);
@@ -31,7 +31,6 @@ body {
   text-align: center;
 }
 
-/** header **/
 
 .hero {
   padding: 3rem;
@@ -100,8 +99,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/** footer  **/
-
 .footer {
   background-color: var(--primary-color);
   border-top-right-radius: 0.5rem;
@@ -111,7 +108,6 @@ body {
 }
 .footer .footer-heading {
   font-weight: bold;
-  font-size: x-large;
 }
 .footer .link {
   color: white;
